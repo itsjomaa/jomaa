@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title> The Brown Bear</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+      * {
+           box-sizing: border-box;
+       }
+       header {
+            background-color:cadetblue;
+            padding: 10px;
+            text-align: left;
+            font-size: 20px;
+            color: whitesmoke;
+        }
+        body {
+            background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2   {border: 2px solid tomato;}
+        h2   {background-color: white;}
+        p    {color: white;} 
+        p    {background-color: tomato;}
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            border-color: 5px solid #070707;
+            padding: 15px;
+            background-color: #96D4D4;
+           
+        }
+        td {
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: #D6EEEE;
+        }
+        ul {
+            list-style-type: circle;
+
+        }
+        .habitat {
+            background-color: cadetblue;
+            color: black;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+        .introduction {
+            background-color: cadetblue;
+            color: black;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+        h3  {
+            background-color: white;
+        }
+
+        .media {
+            background-color: cadetblue;
+            color: black;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .table {
+            background-color: cadetblue;
+            color: black;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+        .menu {
+            float: left;
+            width: 20%;
+        }
+
+        .menuitem {
+            padding: 8px;
+            margin-top: 7px;
+            border-bottom: 1px solid black;
+            background-color: #96D4D4;
+        }
+        .p1 {
+            background-color: cadetblue;
+        }
+    
+    
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 style="font: size 70px;;">The Brown Bear &#128059</h1>
+</header>
+
+   <div style="overflow: auto;">
+    <div class="menu">
+        <div class="menuitem "> <a href="#introduction">Introduction</a></div>
+        <div class="menuitem"><a href="#habitat">Habitat</a></div>
+        <div class="menuitem"><a href="#media">Media</a></div>
+        <div class="menuitem"><a href="#table">Table</a></div>
+    </div>
+</div>
+       
+    <div id="introduction">
+    <div class="introduction">
+    <h2>About Brown Bears</h2>
+        <p>"The brown bear <i>(Ursus arctos)</i> is native to parts
+            of northern Eurasia and North America. Its conservation status
+            is currently <strong>Least Concern</strong>.
+            <br><br>
+            There are many subspecies within
+            the brown bear species, 
+            including the Atlas bear and the Himalayan brown bear."
+        </p>
+
+        <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+       
+        <h3 style="border: 2px solid tomato;">Species</h3>
+        <ul>
+            <li>Arctos</li>
+            <li>Collarus</li>
+            <li>Horribilis</li>
+            <li>Nelsoni (extinct)</li>
+        </ul>
+
+    <h3 style="border: 2px solid tomato;">Features</h3>
+        <p>"Brown bears are not 
+            always completely brown. Some can be reddish or yellowish.
+            They have very large, curved claws and huge paws.<br> Male brown
+            bears are often <mark>30% larger</mark> than female brown bears. They can 
+            range from 5 feet to 9 feet from 
+            head to toe."
+        </p>
+    </div>
+    </div>
+    <div id="habitat">
+    <div class="habitat">
+    <h2 style="border:2px solid Tomato;">Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+        <ol>
+            <li>Russia</li>
+            <li>United States</li>
+            <li>Canada</li>
+        </ol>
+    <h3>Countries with Small Brown Bear Populations</h3>
+        <p style="color: white;">"Some countries with smaller Populations
+            include Armenia, Belarus, Bulgaria, China, Finland, 
+            France, Greece, India, Japan,
+            Nepal, Poland,<br> Romania, Slovenia, Turkmenistan, 
+            and Uzbekistan."
+        </p>
+        <p>Here's a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 50 years, WWF has been protecting the future of nature.
+            The world's leading conservation organization,<br>
+            WWF works in 100 countries and is a supported by 
+            1.2 million members in the <abbr title="United States">US</abbr> and 
+            close to 5 million globally.
+        </blockquote>
+    </div>
+    </div>
+
+   <div id="media">
+     <div class="media">
+        <h2 style="background-color: white;">Media</h2>
+        <p>
+            Now you can see some media of the brown bears,
+            for example, you can see a brown bear taking a 
+            bath in glorious lake in the middle of the praire.
+        </p>
+             <figure>
+                    <img id="bear" src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg"
+                    width="320" height="240" alt="A cute brown bear"/>
+             </figure>
+             <br>
+             <figure>
+                 <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4"
+                 widht="320" height="240" autoplay controls>Video not supported </video>
+             </figure>
+       <svg height="130" width="500">
+           <defs>
+               <linearGradient id="grad1" x1="0%" y1="0%"
+               x2="100%" y2="0%">
+            <stop offset="0%" style= "stop-color: rgb(227, 128, 240);
+            stop-opacity:1"/> 
+            <stop offset="100%" style="stop-color:rgb(140, 0, 255); stop-opacity:1"/>
+            </linearGradient>
+           </defs>
+           <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)"/>
+           <text fill='#ffffff' font-size="40" font-family="Verdana"
+           x="45" y="83">JOMA</text>
+       </svg>
+     </div>
+    </div>
+    <div id="table">
+    <div class="table">
+        <h2 style="border: 2px solid tomato;">Table</h2>
+    <table style="width: 40%;">
+        <tr>
+            <th style="width: 40%;">Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkister</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+    </table>
+    <br>
+    <table style="width: 30%;">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>50</td>
+        </tr>
+
+    </table>
+    <br>
+
+    <button onclick="getLocation()">Get Location</button>
+    <p id="demo"></p>
+
+    <script>
+        var x = 
+        document.getElementById("demo");
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " +
+            position.coords.latitude + "<br>Longitude: "
+            + position.coords.longitude;
+        }
+    </script>
+
+</div>
+      <hr>
+      <footer>
+          <p1>
+             <adress>
+                 Written by Jomari<br>
+                 Visit us aty:<br>
+                 <a href="https://www.apple.com/es/" target="_blank">apple.com</a><br>
+                 Box 564, Disneyland<br>
+                 <a href="jomaaed@icloud.com">Send email</a>
+             </adress>
+          </p1>
+      </footer>
+</div>
+
+</body>
+</html>
